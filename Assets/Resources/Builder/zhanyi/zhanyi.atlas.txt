@@ -1,0 +1,76 @@
+
+zhanyi.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jjc3
+  rotate: false
+  xy: 707, 50
+  size: 204, 185
+  orig: 204, 185
+  offset: 0, 0
+  index: -1
+jjc4
+  rotate: false
+  xy: 942, 285
+  size: 204, 185
+  orig: 204, 185
+  offset: 0, 0
+  index: -1
+jjc5
+  rotate: false
+  xy: 1148, 285
+  size: 204, 185
+  orig: 204, 185
+  offset: 0, 0
+  index: -1
+jjc_00001
+  rotate: false
+  xy: 2, 237
+  size: 233, 233
+  orig: 233, 233
+  offset: 0, 0
+  index: -1
+jjc_00002
+  rotate: false
+  xy: 2, 2
+  size: 233, 233
+  orig: 233, 233
+  offset: 0, 0
+  index: -1
+jjc_00003
+  rotate: false
+  xy: 237, 237
+  size: 233, 233
+  orig: 233, 233
+  offset: 0, 0
+  index: -1
+jjc_00004
+  rotate: false
+  xy: 237, 2
+  size: 233, 233
+  orig: 233, 233
+  offset: 0, 0
+  index: -1
+jjc_00005
+  rotate: false
+  xy: 472, 237
+  size: 233, 233
+  orig: 233, 233
+  offset: 0, 0
+  index: -1
+jjc_00006
+  rotate: false
+  xy: 472, 2
+  size: 233, 233
+  orig: 233, 233
+  offset: 0, 0
+  index: -1
+jjc_00007
+  rotate: false
+  xy: 707, 237
+  size: 233, 233
+  orig: 233, 233
+  offset: 0, 0
+  index: -1

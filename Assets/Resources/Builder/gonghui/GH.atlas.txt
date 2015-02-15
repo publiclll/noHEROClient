@@ -1,0 +1,27 @@
+
+GH.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gonghui
+  rotate: false
+  xy: 2, 2
+  size: 220, 243
+  orig: 220, 243
+  offset: 0, 0
+  index: -1
+qizi1
+  rotate: false
+  xy: 224, 189
+  size: 44, 56
+  orig: 44, 56
+  offset: 0, 0
+  index: -1
+qizi2
+  rotate: false
+  xy: 270, 199
+  size: 52, 46
+  orig: 52, 46
+  offset: 0, 0
+  index: -1
