@@ -1,4 +1,0 @@
-﻿cfgId	Name	Content	Dialog	Race	Soldiersare	HeroAttr
-1	船长	前排坦克	你要飞起来	1	1	1
-2	小黑	很黑	注意看车灯	1	2	3
-3	火女	非常火	小心119	1	3	2

@@ -1,1 +1,0 @@
-{"skeleton":{"hash":"POP7pnoZh7K/u7bYBCK45D2NBXk","spine":"2.0.26","width":2000,"height":1837,"images":"E:/Work/shijie/diqiu"},"bones":[{"name":"root"},{"name":"bone","parent":"root"}],"slots":[{"name":"diqiu","bone":"bone","attachment":"diqiu"}],"skins":{"default":{"diqiu":{"diqiu":{"x":-33.89,"y":921.99,"width":2000,"height":1837}}}},"animations":{"animation":{}}}
