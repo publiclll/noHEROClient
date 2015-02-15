@@ -20,29 +20,31 @@ public class ConfigScheduling {
         return cfg;
     }
 
-    private List<Hero> heroList;
+    private List<HeroInfo> heroList;
     private void initHero()
     {
         if (heroList == null)
-            heroList = new List<Hero>();
+            heroList = new List<HeroInfo>();
 
         List<Dictionary<string, string>> datas = ConfigReader.ReadConfigFile("Configs/GameHero");
 
         foreach (Dictionary<string, string> data in datas)
         {
-            Hero hero = new Hero();
+            HeroInfo hero = new HeroInfo();
             hero.cfgId = Convert.ToInt32(data["cfgId"]);
             hero.Name = data["Name"];
             hero.Content = data["Content"];
             hero.Dialog = data["Dialog"];
-            
+            hero.resMaterials = data["resMaterials"];
+            hero.resDataAsset = data["resDataAsset"];
+            hero.resHeadPic = data["resHeadPic"];
             heroList.Add(hero);
         }
     }
-    public Hero getHero(int cfgId)
+    public HeroInfo getHero(int cfgId)
     {
-        Hero h = null;
-        foreach (Hero hero in heroList)
+        HeroInfo h = null;
+        foreach (HeroInfo hero in heroList)
         {
             if (hero.cfgId == cfgId)
             {

@@ -8,7 +8,7 @@ public class GameMainCemera : MonoBehaviour {
 	// Use this for initialization
     void Start()
     {
-        Hero h = cfgManager.getHero(2);
+        HeroInfo h = cfgManager.getHero(2);
 
         Debug.Log("(" + h.cfgId + ")名称：" + h.Name);
         Debug.Log(" " + h.Content);

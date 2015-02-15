@@ -8,14 +8,15 @@ public class TestSkeleton : MonoBehaviour {
 	// Use this for initialization
 
     void Awake() {
+        HeroInfo hero = ConfigScheduling.getInstance().getHero(1);
         //设置材质
-        animation.renderer.materials[0] = (Material)Resources.Load("Hero/heishishangren/heishishangren-act_Material");
+        animation.renderer.materials[0] = (Material)Resources.Load("Hero/" + hero.resMaterials);
         //设置动画数据
-        animation.skeletonDataAsset = (SkeletonDataAsset)Resources.Load("Hero/heishishangren/heishishangren_Data");
+        animation.skeletonDataAsset = (SkeletonDataAsset)Resources.Load("Hero/" + hero.resDataAsset);
         //是否循环播放动画
         animation.loop = true;
         //设置动画名称
-        animation.AnimationName = "animation";
+        animation.AnimationName = hero.heroAction.win;
         //重新运行动画
         animation.Reset();
     }
